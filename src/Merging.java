@@ -7,10 +7,10 @@ public class Merging {
 				System.out.println("That's great");
 			else if (score > 60)
 				System.out.println("That's good ");
-			else
+			else if (score > 50)
 				System.out.println("Well, what can I say?");
 			else
-				System.out.println("")
+				System.out.println("Cool I fail");
 		}
 		public static void main(String[] args) {
 			Merging tm = new Merging();
@@ -19,4 +19,4 @@ public class Merging {
 		}
 	}
 
-}
+
