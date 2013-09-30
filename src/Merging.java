@@ -9,10 +9,13 @@ public class Merging {
 				System.out.println("That's good ");
 			else
 				System.out.println("Well, what can I say?");
+			else
+				System.out.println("")
 		}
 		public static void main(String[] args) {
 			Merging tm = new Merging();
 			tm.feedback(60);
+			tm.feedback(50);
 		}
 	}
 
