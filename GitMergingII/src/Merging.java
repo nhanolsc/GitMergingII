@@ -10,7 +10,7 @@ public class Merging {
 			else if (score > 50)
 				System.out.println("Well, what can I say?");
 			else
-				System.out.println("You suck");
+				System.out.println("You suck/otherchange");
 		}
 		public static void main(String[] args) {
 			Merging tm = new Merging();
