@@ -9,9 +9,14 @@ public class Merging {
 				System.out.println("That's good ");
 			else if (score > 50)
 				System.out.println("Well, what can I say?");
-			else
+			else if (score > 40)
 				System.out.println("Cool I fail");
+<<<<<<< HEAD
 			
+=======
+			else 
+				System.out.println("Please study harder");
+>>>>>>> Addscores
 		}
 		public static void main(String[] args) {
 			Merging tm = new Merging();
