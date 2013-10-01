@@ -1,6 +1,6 @@
 
 public class Merging {
-		public void feedback(int score) {
+		public void statement(int score) {
 			if (score == 100)
 				System.out.println("You're awesome");
 			else if (score > 90)
@@ -9,20 +9,13 @@ public class Merging {
 				System.out.println("That's good ");
 			else if (score > 50)
 				System.out.println("Well, what can I say?");
-			else if (score > 40)
+			else
 				System.out.println("Cool I fail");
-<<<<<<< HEAD
-			
-=======
-			else 
-				System.out.println("Please study harder");
->>>>>>> Addscores
 		}
 		public static void main(String[] args) {
 			Merging tm = new Merging();
-			tm.feedback(60);
-			tm.feedback(50);
-			tm.feedback(90);
+			tm.statement(60);
+			tm.statement(50);
 		}
 	}
 
