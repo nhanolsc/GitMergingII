@@ -11,11 +11,13 @@ public class Merging {
 				System.out.println("Well, what can I say?");
 			else
 				System.out.println("Cool I fail");
+			
 		}
 		public static void main(String[] args) {
 			Merging tm = new Merging();
 			tm.feedback(60);
 			tm.feedback(50);
+			tm.feedback(90);
 		}
 	}
 
